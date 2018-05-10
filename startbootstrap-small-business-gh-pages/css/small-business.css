@@ -1,0 +1,45 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+/* The birds position as well as the animation name and duration if one was to occur*/
+#bird{
+ height: 200px;
+ animation-name: bird;
+ animation-duration: 10s;
+ position: relative;
+ top: -450px;
+ left:800px;
+}
+
+/*animation statusus at different points of the animation process*/
+@keyframes bird {
+    0%   { left:1000px; top:30px;}
+    25%  { left:100px; top:80px;}
+    50%  { left:800px; top:700px;}
+    75%  { left:150px; top:00px;}
+    100% { left:1000px; top:1000px;}
+}
+    
+img{
+padding-bottom: 10px;
+}
+.contact{
+    text-align: center;
+}
+    
+#contact-header {
+    color:white;
+}
